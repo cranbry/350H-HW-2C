@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using System;
+
+class Menu
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("**************");
+        Console.WriteLine("Menu: ");
+        Console.WriteLine("1 - New Game");
+        Console.WriteLine("2 - Load Game");
+        Console.WriteLine("3 - Options");
+        Console.WriteLine("4 - Quit");
+        Console.WriteLine("**************");
+    }
+}
